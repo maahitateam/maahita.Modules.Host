@@ -1,0 +1,30 @@
+{
+  "hosting": [
+    {
+      "target": "classroom",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|css|ico|html)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public,max-age=14400"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
