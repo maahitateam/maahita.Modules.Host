@@ -18,7 +18,7 @@
     "@sveltech/routify": "1.9.10"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": ">=0.21.1",
     "sirv-cli": "^1.0.11",
     "svelte-persistent-store": "^0.1.6"
   }
