@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mahita-2c3b1"
+  },
+   "targets": {
+      "mahita-2c3b1": {
+        "hosting": {
+          "classroom":[
+            "classroom-maahita"
+          ]
+        }
+      }
+  }
+}
