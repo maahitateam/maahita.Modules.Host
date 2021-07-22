@@ -1,4 +1,4 @@
-export const apihost = "https://us-central1-mahita-2c3b1.cloudfunctions.net/";
+export const apihost = "https://us-central1-maahita-dev-2b7a2.cloudfunctions.net/";
 
 export const meetinghost = 'meetings.maahita.com';
 
